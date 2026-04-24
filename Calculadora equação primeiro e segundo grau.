@@ -174,8 +174,8 @@ int main() {
 
     do {
         printf("=== MENU PRINCIPAL ===\n");
-        printf("1 - Resolver equacao do primeiro grau (mostrar passos)\n");
-        printf("2 - Resolver equacao do segundo grau (mostrar passos)\n");
+        printf("1 - Resolver equacao do primeiro grau \n");
+        printf("2 - Resolver equacao do segundo grau \n");
         printf("0 - Sair\n");
         printf("Escolha uma opcao: ");
         
