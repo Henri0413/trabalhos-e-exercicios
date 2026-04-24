@@ -5,7 +5,7 @@
 /* usado para não dar loop ao digitar uma letra */
 void limparBuffer() {
     int c;
-    while ((c = getchar()) != '\n' && c != EOF);
+    while ((c = getchar()) != '\n' && c != EOF); /* 
 }
 
 /* * Função para resolver e exibir o passo a passo de uma Equação do 1º Grau */
