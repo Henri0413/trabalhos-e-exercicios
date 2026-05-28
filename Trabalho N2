@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define PRODUTOS 200
+#define CLIENTES 50
+
+int random(int n)
+{
+    return rand() % n;
+}
+
+int main(int args, char * arg[])
+{
+    int i, j, p, npro, ncli;
+    int compra[CLIENTES];
+    float preco[PRODUTOS];
+    float total;
+    
+    srand((unsigned)time(NULL));
+    
+    npro = random(PRODUTOS)+1;
+    for (i = 0; i < npro; i++)
+    {
+        p = 5 + random(96);
+        preco[i] = p;
+    }
+}
